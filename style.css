@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --primary-color: #d1d5db;
+    --outline-color:#374151;
+    --body-color:#e5e7eb;
+    --primary-font:'Montserrat', sans-serif;
+
+}
+
+.hero{
+    color: var(--text-color) ;
+    font-family: var(--primary-font);
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--outline-color);
+    padding: 0.2rem 1rem;
+    border-bottom-left-radius: 1rem;
+    font-family: var(--primary-font);
+    text-align: center;
+   
+}
+
+.navigation .link{
+    color: white;
+    font-family: var(--primary-font);
+    
+    
+}
+
+.nav-pills {
+    text-align: end;
+}
+
+.nav-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    color: var(--text-color);
+    font-size: large;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-family: var(--primary-font);
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--primary-font);
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 800px;
+    text-align: center;
+    box-sizing: border-box;
+    
+   
+    
+}
+button{
+    background: var(--primary-color);
+    border: none;
+    color: var(--outline-color);
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    outline: white;
+    margin: auto;
+    display: block;
+    font-family: var(--primary-font);
+    
+}
+
+#output {
+    color: var(--outline-color);
+    font-family: var(--primary-font);
+}
+/* footer */
+.footer{
+    background-color: var(--primary-color) ;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius:1rem ;
+    margin-top: 0rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.social-link{
+    padding: 0.4rem;
+}
+
+#social-icons{
+    max-width: 2%;  
+    height: auto;
+
+}
+
+#discord{
+    object-fit: cover;  
+}
+
+input {
+    padding: 0.6rem 0.5rem;
+    width: 50%;
+    max-width: 280px;
+    border-radius: 0.5rem;
+    border: 2px solid var(--outline-color);
+  
+    outline: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    color: var(--outline-color);
+    
+    
+}
+#label{
+    font-family: var(--primary-font);
+    color: var(--outline-color);
+    font-size: larger;
+    display: block;
+    font-weight: bold;
+    
+}
+
+
+#hypotenuse-formula{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: large;
+    display: block;
+   
+}
